@@ -15,7 +15,9 @@ const TopNav = () => {
             <li>
               <Link to="/">Home</Link>
             </li>
-            <li>Products</li>
+            <li>
+              <Link to="/products">Products</Link>
+            </li>
             <li>
               <Link to="/cart">
                 Cart({products?.length == 0 ? 0 : products.length})
