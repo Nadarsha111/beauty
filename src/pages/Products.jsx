@@ -1,4 +1,3 @@
-import React from 'react';
 import Card from '../components/Card/Card';
 import { useFetch } from '../hooks/useFetch';
 import TopNav from '../components/TopNav';
