@@ -3,10 +3,8 @@ import TopNav from '../components/TopNav';
 import Banner from '../components/Banner';
 import Card from '../components/Card/Card';
 import { useFetch } from '../hooks/useFetch';
-import { useSelector } from 'react-redux';
 const Home = () => {
   const { data } = useFetch('/products.json');
-const products =useSelector((state)=>state.products);
 
 
   return (
